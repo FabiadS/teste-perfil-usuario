@@ -1,0 +1,216 @@
+#container{
+    background-color: #0C0B0B;
+    color: #B7B7B7;
+    font-family: Rubik;
+    width: 100vw; /* para deixar no centro da tela */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center 
+    
+}
+
+.perfil-usuario{
+    background-color: #0F0E0E;
+    width: 650px;
+    height: 350px;
+    display: grid;
+
+}
+
+.informacao-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foto-usuario img{
+    max-width: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.dados-usuario h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.dados-usuario p{
+    margin-top: 3px;
+    font-weight: lighter;
+}
+
+
+
+.button{
+    background-color: #212121;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;    
+    margin-left: 135px;
+
+}
+
+
+.Perfil{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    width: 160px;
+    height: 90px;
+    margin-bottom:-7%;
+    margin-left: 15px;
+
+}
+
+h4{
+    display: flex;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Projetos{
+    background-color: #046313;
+    border-radius: 10px;
+    width: 160px;
+    height: 90px;
+    margin-left: 50px;
+
+}
+.Projetos h4{
+    font-size:30px;
+    margin-left: 12px;
+    padding-bottom: 10px;
+}
+
+.Projetos p{
+    margin-left: 12px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+
+.Estrelas{
+    background-color: #044A7D;
+    border-radius: 10px;
+    width: 160px;
+    height: 90px;
+
+   
+}
+.Estrelas h4{
+    font-size:30px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+}
+
+.Estrelas p{
+    margin-left: 12px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+
+.Seguidores{
+    background-color: #725200;
+    border-radius: 10px;
+    width: 160px;
+    height: 90px;
+    margin-right: 50px;
+   
+}
+
+.Seguidores p{
+    margin-left: 12px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+
+.Seguidores h4{
+    font-size:30px;
+    margin-left: 12px;
+    padding-bottom: 10px;
+}
+
+@media(max-width:1024px){
+    #container{
+        width:90%;
+    }
+}
+
+@media(max-width:650px){
+
+    #container{
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .perfil-usuario{
+        display:flex;
+        flex-direction: column;
+        height: 520px
+        
+    }
+
+    .informacao-usuario{
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dados-usuario h1{
+        margin-top: 2px;
+    }
+
+    .dados-usuario p{
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        margin-bottom: 25px ;
+
+    }
+    
+    .Perfil{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;    
+    
+    }
+    .Projetos{
+        margin-bottom: 15px;
+        margin-left: 40px;
+        width: 180px;
+        
+    }
+
+    .Estrelas{
+        margin-bottom: 15px;
+        margin-left: 40px;
+        width: 180px;
+       
+    }
+
+    .Seguidores{
+        margin-bottom: 15px;
+        margin-left: 40px;
+        width: 180px;
+
+       
+    }
+}
+
